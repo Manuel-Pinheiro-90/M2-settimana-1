@@ -303,7 +303,19 @@ border: none;
 }
 
 #flexa div {width: 33%}
-header{font-size: 2.0rem;}
+
+header{font-size: 2.0rem;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+}
+
+#gundir{display: flex;
+    align-items: center;}
+
+#gundir p{margin: 0;
+}
 
 }
 
@@ -313,7 +325,6 @@ header{font-size: 2.0rem;}
 
 @media print {
     
-
 
 
 }
