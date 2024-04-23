@@ -356,7 +356,8 @@ position: relative;
   font-weight: 900;
   font-size: 3em;
   position: absolute;
-  right: 1em;
+  right: 0.5em;
+
   color: gray;
   opacity: 0.5;
   top: 17px;
