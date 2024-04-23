@@ -354,11 +354,13 @@ position: relative;
 .banana{
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
-  font-size: 2em;
+  font-size: 3em;
   position: absolute;
-  right: 144px;
+  right: 1em;
   color: gray;
-opacity: 0.5;
+  opacity: 0.5;
+  top: 17px;
+
 }
 
 
