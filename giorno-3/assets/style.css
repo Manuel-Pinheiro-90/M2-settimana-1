@@ -1,0 +1,187 @@
+/******************************************************Header*************************************************************************/
+body {
+    margin: 0;
+    color: brown;
+
+}
+
+h1 {
+    font-size: 3em;
+    margin-left: 10%;
+    color: brown;
+}
+
+
+main {
+    margin: 2em;
+}
+
+
+header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+    background-color: rgb(243, 219, 141);
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+#logo {
+    width: 5em;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+ol li {
+
+    background-color: rgb(243, 219, 141);
+    border-radius: 50px;
+    text-align: center;
+    padding: 1em;
+    margin: 0.5em;
+
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    /* Dimensioni dei bottoni */
+}
+
+
+header {
+
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+
+    flex-direction: column;
+    padding: 0.5em;
+
+    align-items: center;
+    /* Centra gli elementi orizzontalmente */
+
+}
+
+
+
+
+
+
+
+
+
+/******************************************************carte*************************************************************************/
+
+#cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+
+
+article.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 1em;
+
+    border-radius: 40px;
+    background-color: antiquewhite;
+}
+
+.card .text-container {
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* faccio mangiare a questo div tutto l'eventuale spazio vuoto nella card */
+    flex-grow: 1;
+    /* distribuisco tutto questo eventuale spazio vuoto tra il titolo e il paragrafo, e tra il paragrafo e il bottone */
+    justify-content: space-between;
+
+
+}
+
+.text-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    /* Spazio tra il bottone principale e la lista di bottoni */
+    background-color: rgb(243, 219, 141);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    color: brown;
+}
+
+
+article img {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+
+}
+
+.id2 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/******************************************************articolo finale*************************************************************************/
+
+section {
+    margin: 3em;
+}
+
+h2 {
+    font-size: 3em;
+
+    color: brown;
+}
+
+
+
+picture img {
+    width: 100%;
+}
+
+#ban {
+    border-radius: 40px;
+    background-color: antiquewhite;
+    padding: 2em;
+    color: brown;
+}
+
+
+@media screen and (min-width:1200px) {
+
+    #uber {
+        display: flex;
+    }
+
+
+
+
+}
