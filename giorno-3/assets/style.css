@@ -188,16 +188,11 @@ picture img {
 }
 
 /*
-@media screen and (min-width:1200px) {
+@media screen and (max-width:570px) {
 
-    #uber {
-        display: flex;
-       
-
+    ol button {
+        order: 1;
     }
-
-
-
-
 }
+
 */
